@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent { label 'master'}
     // options{
     //     disableconcurrentBuilds()
     //     time(time: 30, unit: 'MINUTES')
